@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    align-items: start;
+    margin-top: -30px;
+}
+
+header {
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.hero {
+    display: flex;
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.hero-sub {
+    display: flex;
+    margin-left: 140px;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-left: 140px;
+}
