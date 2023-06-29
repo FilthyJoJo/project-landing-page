@@ -14,12 +14,24 @@ li {
     margin-right: 20px;
     align-items: start;
     margin-top: -30px;
+    color: white;
 }
 
 header {
     margin-left: 140px;
     font-weight: bold;
     font-size: larger;
+    color: white;
+}
+
+.hero-text {
+    height: 500;
+    width: 100;
+    border: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    inline-size: 350px;
 }
 
 .hero {
@@ -27,14 +39,34 @@ header {
     margin-left: 140px;
     font-weight: bold;
     font-size: xx-large;
+    color: white;
 }
 
 .hero-sub {
     display: flex;
     margin-left: 140px;
     flex-wrap: wrap;
+    color: gray;
 }
 
 button {
+    display: flex;
+    margin: 10px;
+    height: 33px;
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
     margin-left: 140px;
+}
+
+.dark-background {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+    padding: 10px;
 }
