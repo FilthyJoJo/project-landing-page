@@ -70,3 +70,50 @@ button {
     margin: -8px;
     padding: 10px;
 }
+
+.power {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+img {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.mini-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.text {
+    max-width: 120px;
+}
+
+.block-container {
+    margin: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.attribution {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote-text {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
