@@ -116,4 +116,24 @@ img {
 .quote-text {
     background-color: #E5E7EB;
     padding: 100px;
+    margin: -10px;
+}
+
+.action {
+    margin: 100px;
+}
+
+.ad {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+}
+
+.top-action {
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.bottom-action {
+    margin-left: 25px;
 }
